@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>link ifadesi kullanımı</title>
+    <link th:href="@{/css/deneme.css}" rel="stylesheet">
+</head>
+<body>
+<h2>link ifadeleri kullanımı</h2>
+
+<div>
+    <a th:href="@{http://www.google.com.tr}">Google</a>
+    <br>
+    <a th:href="@{/secim}">Secim</a>
+<br>
+    <a th:href="@{link/{ad}(ad=${ad})}">link</a>
+</div>
+</body>
+</html>

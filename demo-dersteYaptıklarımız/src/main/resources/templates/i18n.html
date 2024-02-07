@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>i18n kullanimi</title>
+</head>
+<body>
+<h2>i18n ifadeleri gösterme</h2>
+<div>
+    <table border="1" bordercolor="#ffccc" width="200">
+        <caption>i18n Gösterim</caption>
+        <tr><td><p>mesaj adi : </p></td> <td><strong th:text="#{mesaj.adi}"></strong> </td></tr>
+        <tr><td><p>Mesaj Konusu: </p></td> <td><strong th:text="#{metin.mesaji}"></strong></td></tr>
+
+
+    </table>
+</div>
+</body>
+</html>

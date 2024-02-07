@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Kayıt basarili</title>
+</head>
+<body>
+<div align="center">
+  <h1>kayıt listesi</h1>
+
+    <table>
+      <tr><td><p>Ad : </p></td> <td><strong th:text="${yeniogr.ad}"></strong> </td></tr>
+      <tr><td><p>soyAd : </p></td> <td><strong th:text="${yeniogr.soyad}"></strong> </td></tr>
+      <tr><td><p>yas : </p></td> <td><strong th:text="${yeniogr.yas}"></strong> </td></tr>
+      <tr><td><p>cinsiyet : </p></td> <td><strong th:text="${yeniogr.cinsiyet}"></strong> </td></tr>
+      <tr><td><p>adres : </p></td> <td><strong th:text="${yeniogr.adres}"></strong> </td></tr>
+
+    </table>
+
+
+
+
+</div>
+</body>
+</html>

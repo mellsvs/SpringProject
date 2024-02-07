@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>secim idafesi</title>
+</head>
+<body>
+<h2>secim ifadeleri</h2>
+<div th:object="${secim}">
+    <table border="1" bordercolor="#ffccc" width="155">
+        <caption>secim Gösterim</caption>
+        <tr><td><p>Ad : </p></td> <td><strong th:text="*{ad}"></strong> </td></tr>
+        <tr><td><p>Soyad: </p></td> <td><strong th:text="*{soyad}"></strong></td></tr>
+        <tr><td><p>Yas: </p></td> <td><strong th:text="*{yas}"></strong> </td></tr>
+
+    </table>
+
+
+
+</div>
+
+</body>
+</html>

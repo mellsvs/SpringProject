@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>degisken sayfa</title>
+</head>
+<body>
+<h2>Degisken ifadeleri gösterim</h2>
+<div>
+    <table border="1" bordercolor="#ffccc" width="155">
+        <caption>Degisken Gösterim</caption>
+        <tr><td><p>Ad : </p></td> <td><strong th:text="${degisken.ad}"></strong> </td></tr>
+        <tr><td><p>Soyad: </p></td> <td><strong th:text="${degisken.soyad}"></strong></td></tr>
+        <tr><td><p>Yas: </p></td> <td><strong th:text="${degisken.yas}"></strong> </td></tr>
+
+    </table>
+
+</div>
+</body>
+</html>
